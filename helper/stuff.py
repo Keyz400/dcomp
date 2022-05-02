@@ -10,7 +10,7 @@
 #    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
 #    General Public License for more details.
 #
-#    License can be found in < https://github.com/1Danish-00/CompressorBot/blob/main/License> .
+#    License can be found in < https://t.me/cyberstainbot/blob/main/License> .
 
 from .worker import *
 
@@ -33,8 +33,8 @@ async def start(event):
         buttons=[
             [Button.inline("HELP", data="ihelp")],
             [
-                Button.url("SOURCE CODE", url="github.com/1Danish-00/CompressorBot"),
-                Button.url("DEVELOPER", url="t.me/danish_00"),
+                Button.url("Follow", url="t.me/cyberstainbot"),
+                Button.url("DEVELOPER", url="t.me/cyberstainbot"),
             ],
         ],
     )
@@ -60,8 +60,8 @@ async def beck(event):
         buttons=[
             [Button.inline("HELP", data="ihelp")],
             [
-                Button.url("SOURCE CODE", url="github.com/1Danish-00/"),
-                Button.url("DEVELOPER", url="t.me/danish_00"),
+                Button.url("Follow", url="github.com/1Danish-00/"),
+                Button.url("DEVELOPER", url="t.me/cyberstainbot"),
             ],
         ],
     )
